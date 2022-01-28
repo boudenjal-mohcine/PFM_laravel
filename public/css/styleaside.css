@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,300;0,400;0,500;1,400&display=swap");
+
+
+section{
+  background-color: #f4f8ff;
+}
+
+
+
+
+.custom-shape-divider-bottom-1630600827 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  animation: svg 20s infinite linear;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1630600827 svg {
+  position: relative;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 150px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1630600827 .shape-fill {
+  fill: #fafbff;
+}
+
+@keyframes svg {
+  0% {
+    width: 100%;
+  }
+
+  50% {
+    width: 300%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+.blogs {
+  height: min-content;
+  width: 100%;
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.blogsTitle {
+  font-size: 3rem;
+  color: #ffffff;
+  width: 100%;
+  margin-top: 80px;
+  text-align: center;
+
+}
+
+.blogsContainer {
+  margin: auto;
+  position: relative;
+  
+}
+
+.blogsContent {
+  margin: 100px 100px 50px 100px;
+  padding-bottom: 70px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(360px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 50px;
+  align-items: stretch;
+  justify-content: center;
+  position: relative;
+  height: 700px;
+  transition: all 0.5s ease;
+}
+
+.blog {
+  justify-self: center;
+  width: 250px;
+  border-radius: 10px;
+  height: min-content;
+  font-size: 1.1rem;
+  color: #ff9900;
+  padding: 20px 15px;
+  transition: all 0.5s ease;
+}
+
+.blog:hover {
+  transform: scale(1.05);
+  -webkit-box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.534);
+  box-shadow: 5px 5px 24px 1px rgba(20, 35, 97, 0.507);
+  background: #f4f8ff;
+}
+
+.blog img {
+  width: 220px;
+  border-radius: 10px;
+}
+
+.readBlog {
+  display: none;
+  background: rgb(94, 20, 20);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 36, 94, 1) 0%,
+    rgba(5, 14, 47, 1) 50%,
+    rgba(24, 60, 125, 1) 50%,
+    rgba(9, 23, 50, 1) 100%
+  );
+  background-size: 200%;
+  background-position: left;
+  width: 100%;
+  margin: auto;
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  border: none;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.readBlog:hover {
+  color: #ff9900;
+  background-position: right;
+}
+
+.blog:hover .readBlog {
+  display: block;
+}
+
+.funFact {
+  font-size: 1.2rem;
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 200px;
+  color: #0f1d57;
+  height: min-content;
+}
+
+.factContent {
+  width: 60%;
+}
+
+.highlightText {
+  color: #e90303;
+}
+
+.highlightTextSec {
+  color: #ca7717;
+}
+
+.fact:nth-child(2) {
+  margin-top: 20px;
+}
+
+.fact:nth-child(3) {
+  margin-top: 10px;
+}
+
+.custom-shape-divider-bottom-1631607238 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+ 
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1631607238 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 101px;
+}
+
+.custom-shape-divider-bottom-1631607238 .shape-fill {
+  fill: #ffffff;
+}
+
+.allBlogs {
+  justify-self: center;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  background: rgb(115, 141, 233);
+  background: linear-gradient(
+    90deg,
+    rgb(63, 84, 161) 0%,
+    rgba(5, 14, 47, 1) 50%,
+    rgba(24, 60, 125, 1) 50%,
+    rgba(9, 23, 50, 1) 100%
+  );
+  transition: 0.5s ease-in-out;
+  background-size: 200%;
+  background-position: left;
+  margin: auto;
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  cursor: pointer;
+}
+
+
+.allBlogs:hover {
+  background-position: right;
+}

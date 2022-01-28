@@ -1,0 +1,93 @@
+.trendingWrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh + 10vh);
+  justify-content: flex-start;
+  position: relative;
+}
+.trendingWrapper {
+  height: min-content;
+  padding-bottom: 180px;
+}
+.trendingTitle {
+  font-size: 3rem;
+  color: white;
+  margin: 2rem auto;
+}
+
+.buttonHighlight {
+  position: relative;
+  color: #f2870c;
+}
+.visitButtonHighlight {
+  color: #f2870c;
+}
+.menu-wrapper {
+  width: 100%;
+}
+
+.menu {
+  width: 80%;
+  margin: auto;
+}
+
+.item {
+  width: 300px;
+  height: 600px;
+  background-color: #edf0fd;
+  margin-left: 100px;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+.item-image {
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+  background-position: center;
+  background-size: 10%;
+}
+.location img {
+  height: 20px;
+  z-index: 333;
+  color: #edf0fd;
+  margin-right: 10px;
+}
+.location {
+  background: #142361bd;
+  backdrop-filter: blur(5px);
+  width: max-content;
+  padding: 0 15px;
+  color: #edf0fd;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  transition: all 0.3s ease;
+}
+
+
+.location:hover {
+  color: #f2870c;
+}
+
+.placeTitle {
+  font-size: 1.5rem;
+  color: #142361;
+  font-weight: 600;
+  padding: 20px 20px;
+}
+
+.placeTitle span {
+  float: right;
+}
+
+.placeDescription {
+  color: #4d608a;
+  padding: 20px 20px;
+  margin-top: -30px;
+}
